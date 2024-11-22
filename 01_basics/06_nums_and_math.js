@@ -41,5 +41,3 @@ const max=20
 
 console.log(Math.random()*(max-min+1));
 console.log(Math.floor(Math.random()*(max-min+1))+min);
-
->>>>>>> 725b8e6bc33e26c6df44e26ea06b54da696845b5
