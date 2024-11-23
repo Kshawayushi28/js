@@ -1,10 +1,6 @@
 const score=400
 console.log(score);
 
-// const balance=new Number(100)
-console.log(balance);
-
-
 const balance=new Number(100)
 // console.log(balance);
 
@@ -32,7 +28,7 @@ const hundreds=1000000
 // console.log(Math.min(4,3,6,8));
 // console.log(Math.max(4,3,6,8));
 
-console.log(Math.random());
+console.log(Math.random());             // math.random gives value from 0 to 1 always
 console.log(Math.random()*10+1);       // wrong method
 console.log(Math.floor(Math.random()*10)+1);     // right mathod
 
