@@ -10,7 +10,7 @@ let myDate=new Date()
 // console.log(myCreatedDate.toDateString());
 // let myCreatedDate=new Date(2023, 0, 23, 5, 3);
 // let myCreatedDate=new Date("2023-01-14");
-let myCreatedDate=new Date("01-14-2023");
+// let myCreatedDate=new Date("01-14-2023");
 // console.log(myCreatedDate.toLocaleString());
 
 let myTimeStamp=Date.now()
