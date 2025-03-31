@@ -6,21 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Chai aur Code</h1>
+    <h1>Chai aur Javascript</h1>
+    <button id="start">Start</button>
     <button id="stop">Stop</button>
 </body>
 <script>
-    const sayAyushi = function(){
-        console.log("Ayushi");
+    const sayDate =function(str){
+        console.log(str,Date.now());
     }
-    const changeText = function(){
-        document.querySelector('h1').innerHTML="best JS series"
-    }
-    const changeMe = (changeText,2000)
+   const intervalId = setInterval(sayDate,1000,"hi") 
 
-    document.querySelector('#stop').addEventListener('click',function(){
-        clearTimeout(changeMe)
-        console.log("STOPPED")
-    })
+   clearInterval(intervalId)
 </script>
 </html>
